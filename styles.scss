@@ -16,8 +16,8 @@ body {
 }
 
 .Card {
-  height: 320px;
-  width: 250px;
+  height: 440px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -25,6 +25,8 @@ body {
   border-radius: 12px 12px 12px 12px;
   background-color: white;
   &-Image {
+    margin-left: 20px;
+    margin-top: 10px;
     height: 10em;
     width: 15em;
     background-size: cover;
@@ -33,11 +35,12 @@ body {
   }
 
   &-Title {
-    margin-top: 4em;
+    margin-top: 6em;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   &-Paragraft {
+    padding: 8px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 }
