@@ -12,14 +12,32 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-
+  background-color: aquamarine;
 }
 
+.Card {
+  height: 320px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 15px 15px 27px black, -15px -15px 27px black;
+  border-radius: 12px 12px 12px 12px;
+  background-color: white;
+  &-Image {
+    height: 10em;
+    width: 15em;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
 
-.Card{
-    height: 200px;
-    width: 190px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  &-Title {
+    margin-top: 4em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  &-Paragraft {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
